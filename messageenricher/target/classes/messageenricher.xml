@@ -14,5 +14,6 @@ http://www.mulesoft.org/schema/mule/ee/dw http://www.mulesoft.org/schema/mule/ee
             <set-payload value="I am new payload" doc:name="Set Payload"/>
         </enricher>
         <logger message="#[payload]" level="INFO" doc:name="Logger"/>
+        <logger level="INFO" doc:name="Logger"/>
     </flow>
 </mule>
